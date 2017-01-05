@@ -2,8 +2,8 @@ FROM python:2.7
 
 MAINTAINER Ralph Brecheisen <ralph.brecheisen@gmail.com>
 
-COPY sshd_config /dev/ssh-install.sh /root/
+COPY ./sshd_config ./ssh_install.sh /root/
 
 ARG AUTH_KEY
 
-RUN /root/ssh-install.sh
+RUN /root/ssh_install.sh

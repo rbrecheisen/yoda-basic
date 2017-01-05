@@ -12,5 +12,5 @@ if [ "${1}" == "" ] || [ "${1}" == "help" ]; then
 
 elif [ "${1}" == "start" ]; then
 
-    ./docker/run-dev.sh
+    echo "starting..."
 fi
